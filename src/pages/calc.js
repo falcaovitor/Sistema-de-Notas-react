@@ -62,12 +62,12 @@ function Calculate(){
         <div className={styles.container}>
             <div className={styles.inputs}>
                 <h2>Atividades</h2>
-                <Input type="text" placeholder="A1" id="a"/>
-                <Input type="text" placeholder="A2" id="b"/>
-                <Input type="text" placeholder="A3" id="c"/>
-                <Input type="text" placeholder="A4" id="d"/>
+                <Input type="number" placeholder="A1" id="a"/>
+                <Input type="number" placeholder="A2" id="b"/>
+                <Input type="number" placeholder="A3" id="c"/>
+                <Input type="number" placeholder="A4" id="d"/>
                 <h2>Prova N2 ou Substituta</h2>
-                <Input id="prova" type="text" placeholder="PV" />
+                <Input id="prova" type="number" placeholder="PV" />
                 <button onClick={Calcular}>Calcular</button>
             </div>
             <div className={styles.media}>

@@ -18,10 +18,16 @@
 }
 .inputs input{
     margin-top: 1rem;
-    width: 4.5rem;
+    width: 5rem;
     height: 2rem;
-    padding: 1.5rem;
+    padding: 1.2rem;
     font-size: 1rem;
+    text-align: center;
+    appearance: none;
+}
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
 }
 .inputs button{
     margin-top: 1rem;
